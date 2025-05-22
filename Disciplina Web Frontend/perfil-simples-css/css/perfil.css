@@ -1,0 +1,43 @@
+#perfil {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nome {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.sucesso {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  padding: 10px;
+  border-left: 5px solid #4f8a10;
+}
+
+.erro {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  padding: 10px;
+  border-left: 5px solid #d8000c;
+}
+
+.status.online {
+  color: green;
+  font-weight: bold;
+}
+
+.status.offline {
+  color: gray;
+  font-style: italic;
+}
